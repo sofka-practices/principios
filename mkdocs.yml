@@ -1,1 +1,97 @@
-site_name: My Docs
+site_name: Principios de Desarrollo
+copyright: Copyright &copy; 2023 - Sofka
+nav:
+    - 'Principios Bases de Programación':
+        - Resumen: 'base.md'
+        - SOLID: 'base/solid.md'
+        - "Automated Tests": 'base/automated_tests.md'
+        - "Encapsulation": 'base/encapsulation.md'
+        - "Bounded Contexts": 'base/bounded_contexts.md'
+        - "Don't repeat yourself": 'base/dry.md'
+        - "Persistence ignorance": 'base/persistence_ignorance.md'
+        - "Separation of concerns": 'base/separation_of_concerns.md'
+        - "Keep it simple stupid": 'base/kiss.md'
+        - "You aren't gonna need it": 'base/yagni.md'
+        - "Taller/Practica": 'base/workshop.md'
+
+    - 'Principios de Frontend':
+       - Resumen: 'frontend.md'
+       - "Developing components, not screens": 'frontend/dev_components.md'
+       - "Separating presentational and business/controller layer": 'frontend/separating.md'
+       - "Using a standardized way of fetching the data": 'frontend/standardized_fetching.md'
+       - "Having a common user input strategy": 'frontend/input_strategy.md'
+       - "Writing automated tests": 'frontend/automated_tests.md'
+       - "Responsive Design": 'frontend/responsive_design.md'
+       - "Using linters and formatters": 'frontend/linters_formatters.md'
+       - "Avoiding global styles": 'frontend/avoiding_global_styles.md'
+       - "Keeping a changelog": 'frontend/keeping_changelog.md'
+       - "Taller/Practica": 'frontend/workshop.md'
+    - 'Principios de Arquitectura Limpia':
+       - Resumen: 'clean-arch.md'
+       - "Reuse/release Equivalence": 'clean_arch/reuse.md'
+       - "Common Closere": 'clean_arch/common_closure.md'
+       - "Common Reuse": 'clean_arch/common_reuse.md'
+       - "Acyclic Dependencies": 'clean_arch/acyclic_dependencies.md'
+       - "Stable Dependencies": 'clean_arch/stable_dependencies.md'
+       - "Stable Abstractions": 'clean_arch/stable_abstractions.md'
+       - "Taller/Practica": 'clean_arch/workshop.md'
+    - 'Principios de Microservicios':
+       - Resumen: 'microservice.md'
+       - "Culture of Automation": 'microservice/culture_automation.md'
+       - "Hide Implementation Details": 'microservice/hide_implementation.md'
+       - "Highly Observable": 'microservice/highly_observable.md'
+       - "Consumer First": 'microservice/consumer_first.md'
+       - "Isolate Failure": 'microservice/isolate_failure.md'
+       - "Decentralise All The Things": 'microservice/decentralise_things.md'
+       - "Deploy Independently": 'microservice/deploy_independently.md'
+       - "Modelled Around Business Domain": 'microservice/modelled.md'
+    - 'Principios de Arquitectura Cloud':
+       - Resumen: 'cloud.md'
+       - "Enable Scalability": 'cloud/enable_scalability.md'
+       - "Automate Your Environment": 'cloud/automate_environment.md'
+       - "Use Disposable Resources": 'cloud/disposable.md'
+       - "Avoid Single Point Of Failure": 'cloud/avoid_point_failure.md'
+       - "Secure Your Infrastructure Everywhere": 'cloud/secure_infrastructure.md'
+       - "Choose The Rigth Databse Solutions": 'cloud/choose_databse.md'
+       - "Design Services, No Servers": 'cloud/no_servers.md'
+       - "Loosely Couple Your Component": 'cloud/loosely_couple.md'
+       - "Use Caching": 'cloud/caching.md'
+       - "Optimize For Cost Caching": 'cloud/optimize_cost.md'
+
+theme:
+  language: es
+  name: material
+  logo: assets/logo.png
+  font:
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+
+    
+  features:
+    - navigation.indexes
+    - navigation.footer
+    - header.autohide
+    - content.code.annotate 
+    - content.code.select
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - tags
+extra:
+  version:
+    provider: mike
