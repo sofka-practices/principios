@@ -1,5 +1,8 @@
 site_name: Principios de Desarrollo
 copyright: Copyright &copy; 2023 - Sofka
+repo_url: https://github.com/sofka-practices/principios.git
+repo_name: GitHub
+edit_uri: https://github.com/sofka-practices/principios.git
 nav:
     - 'Principios Bases de Programación':
         - Resumen: 'base.md'
