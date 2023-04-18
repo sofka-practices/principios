@@ -1,9 +1,9 @@
 site_name: Principios de Desarrollo
 copyright: Copyright &copy; 2023 - Sofka
-repo_url: https://github.com/sofka-practices/principios
+repo_url: https://github.com/sofka-practices/principios/
 repo_name: GitHub
-edit_uri: blob/main/docs/
-edit_uri_template: 'blob/main/docs/{path}'
+site_url: https://sofka-practices.github.io/principios/
+edit_uri: edit/main/docs/
 nav:
     - 'Principios Bases de Programación':
         - Resumen: 'base.md'
@@ -49,6 +49,7 @@ nav:
        - "Decentralise All The Things": 'microservice/decentralise_things.md'
        - "Deploy Independently": 'microservice/deploy_independently.md'
        - "Modelled Around Business Domain": 'microservice/modelled.md'
+       - "Taller/Practica": 'microservice/workshop.md'
     - 'Principios de Arquitectura Cloud':
        - Resumen: 'cloud.md'
        - "Enable Scalability": 'cloud/enable_scalability.md'
@@ -66,6 +67,10 @@ theme:
   language: es
   name: material
   logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil 
+    view: material/eye
   font:
     code: Roboto Mono
   palette:
@@ -81,6 +86,10 @@ theme:
     - content.code.annotate 
     - content.code.select
     - content.code.copy
+    - content.action.edit
+    - search.share
+
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

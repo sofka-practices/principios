@@ -96,30 +96,30 @@ Con la encapsulación de comportamiento, el resto del sistema solo necesita inte
 
 ``` mermaid
 classDiagram
+    class Animal {
+        -name: String
+        -age: Int
+        +setName(name: String): void
+        +setAge(age: Int): void
+        +getName(): String
+        +getAge(): Int
+    }
 
-class Animal {
-  - String name
-  - int age
-  - boolean isAlive
-  + Animal(name: String, age: int)
-  + getName(): String
-  + getAge(): int
-  + isAlive(): boolean
-  + setName(name: String): void
-  + setAge(age: int): void
-  + setAlive(alive: boolean): void
-}
+    class Dog {
+        -breed: String
+        -weight: Double
+        +setBreed(breed: String): void
+        +setWeight(weight: Double): void
+        +getBreed(): String
+        +getWeight(): Double
+    }
 
-class Zoo {
-  - List<Animal> animals
-  + Zoo()
-  + addAnimal(animal: Animal): void
-  + removeAnimal(animal: Animal): void
-  + getAnimals(): List<Animal>
-}
+    Animal <|-- Dog
 
 ```
 
-En este ejemplo, tenemos dos clases: Animal y Zoo. La clase Animal tiene tres atributos privados: name, age e isAlive, y tres métodos públicos que permiten acceder a estos atributos (getName(), getAge() e isAlive()) y tres métodos públicos que permiten modificar estos atributos (setName(), setAge() y setAlive()). De esta manera, se cumple el principio de Encapsulamiento ya que los atributos privados solo son accesibles a través de métodos públicos, lo que protege los datos y evita que se puedan modificar desde fuera de la clase.
+En este ejemplo, se tiene una clase llamada Animal que representa un animal genérico con atributos privados de nombre y edad, y métodos públicos para establecer y obtener esos atributos. Luego, se tiene otra clase llamada Dog que hereda de la clase Animal y agrega atributos privados de raza y peso, así como métodos públicos para establecer y obtener esos atributos específicos de un perro.
 
-Por otro lado, la clase Zoo tiene una lista de animales (atributo privado) y tres métodos públicos que permiten agregar y remover animales de la lista (addAnimal() y removeAnimal()) y obtener la lista de animales (getAnimals()). En este caso, la clase Zoo utiliza la clase Animal para representar los animales que tiene en su lista, pero no tiene conocimiento de cómo se implementa la clase Animal, lo que cumple con el principio de Persistence Ignorance.
+Dog es una subclase de Animal, lo que significa que Dog hereda los atributos y métodos de Animal, pero también puede tener sus propios atributos y métodos únicos.
+
+Este ejemplo ilustra el principio de encapsulación, que es la idea de que los detalles internos de una clase (como los atributos y métodos privados) deben estar ocultos al mundo exterior. En este ejemplo, la clase Animal encapsula los detalles de nombre y edad, y la clase Dog encapsula los detalles de raza y peso. Esto permite que los cambios internos en una clase no afecten a otras partes del sistema que utilizan esa clase, lo que a su vez facilita el mantenimiento y la evolución del sistema.
