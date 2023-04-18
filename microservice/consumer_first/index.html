@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://sofka-practices.github.io/principios/base/kiss/">
+        <link rel="canonical" href="https://sofka-practices.github.io/principios/microservice/consumer_first/">
       
       
-        <link rel="prev" href="../separation_of_concerns/">
+        <link rel="prev" href="../highly_observable/">
       
       
-        <link rel="next" href="../yagni/">
+        <link rel="next" href="../isolate_failure/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.4">
     
     
       
-        <title>Keep it simple stupid - Principios de Desarrollo</title>
+        <title>Consumer First - Principios de Desarrollo</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ejemplo" class="md-skip">
+        <a href="#recomendaciones" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Keep it simple stupid
+              Consumer First
             
           </span>
         </div>
@@ -193,16 +193,14 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
       
       
         
@@ -235,7 +233,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_1">
           <span class="md-nav__icon md-icon"></span>
           Principios Bases de Programación
@@ -248,7 +246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../base/" class="md-nav__link">
         Resumen
       </a>
     </li>
@@ -262,7 +260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../solid/" class="md-nav__link">
+      <a href="../../base/solid/" class="md-nav__link">
         SOLID
       </a>
     </li>
@@ -276,7 +274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../automated_tests/" class="md-nav__link">
+      <a href="../../base/automated_tests/" class="md-nav__link">
         Automated Tests
       </a>
     </li>
@@ -290,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../encapsulation/" class="md-nav__link">
+      <a href="../../base/encapsulation/" class="md-nav__link">
         Encapsulation
       </a>
     </li>
@@ -304,7 +302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bounded_contexts/" class="md-nav__link">
+      <a href="../../base/bounded_contexts/" class="md-nav__link">
         Bounded Contexts
       </a>
     </li>
@@ -318,7 +316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dry/" class="md-nav__link">
+      <a href="../../base/dry/" class="md-nav__link">
         Don't repeat yourself
       </a>
     </li>
@@ -332,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../persistence_ignorance/" class="md-nav__link">
+      <a href="../../base/persistence_ignorance/" class="md-nav__link">
         Persistence ignorance
       </a>
     </li>
@@ -346,7 +344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../separation_of_concerns/" class="md-nav__link">
+      <a href="../../base/separation_of_concerns/" class="md-nav__link">
         Separation of concerns
       </a>
     </li>
@@ -358,48 +356,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Keep it simple stupid
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../base/kiss/" class="md-nav__link">
         Keep it simple stupid
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ejemplo" class="md-nav__link">
-    Ejemplo
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -411,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../yagni/" class="md-nav__link">
+      <a href="../../base/yagni/" class="md-nav__link">
         You aren't gonna need it
       </a>
     </li>
@@ -425,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../workshop/" class="md-nav__link">
+      <a href="../../base/workshop/" class="md-nav__link">
         Taller/Practica
       </a>
     </li>
@@ -823,14 +784,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
       
       
         
@@ -861,7 +824,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Principios de Microservicios
@@ -874,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         Resumen
       </a>
     </li>
@@ -888,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/culture_automation/" class="md-nav__link">
+      <a href="../culture_automation/" class="md-nav__link">
         Culture of Automation
       </a>
     </li>
@@ -902,7 +865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/hide_implementation/" class="md-nav__link">
+      <a href="../hide_implementation/" class="md-nav__link">
         Hide Implementation Details
       </a>
     </li>
@@ -916,7 +879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/highly_observable/" class="md-nav__link">
+      <a href="../highly_observable/" class="md-nav__link">
         Highly Observable
       </a>
     </li>
@@ -928,11 +891,137 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../microservice/consumer_first/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Consumer First
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Consumer First
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#recomendaciones" class="md-nav__link">
+    Recomendaciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplo" class="md-nav__link">
+    Ejemplo
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#servicio-de-consulta-de-saldo-bancario" class="md-nav__link">
+    Servicio de Consulta de saldo bancario
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicio de Consulta de saldo bancario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#endpoints" class="md-nav__link">
+    Endpoints
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametros-de-entrada" class="md-nav__link">
+    Parámetros de entrada
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autenticacion" class="md-nav__link">
+    Autenticación
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formato-de-respuesta" class="md-nav__link">
+    Formato de respuesta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-solicitud" class="md-nav__link">
+    Ejemplo de solicitud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-respuesta" class="md-nav__link">
+    Ejemplo de respuesta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errores" class="md-nav__link">
+    Errores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-de-uso" class="md-nav__link">
+    Guía de uso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consecuencias" class="md-nav__link">
+    Consecuencias
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -944,7 +1033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/isolate_failure/" class="md-nav__link">
+      <a href="../isolate_failure/" class="md-nav__link">
         Isolate Failure
       </a>
     </li>
@@ -958,7 +1047,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/decentralise_things/" class="md-nav__link">
+      <a href="../decentralise_things/" class="md-nav__link">
         Decentralise All The Things
       </a>
     </li>
@@ -972,7 +1061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/deploy_independently/" class="md-nav__link">
+      <a href="../deploy_independently/" class="md-nav__link">
         Deploy Independently
       </a>
     </li>
@@ -986,7 +1075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/modelled/" class="md-nav__link">
+      <a href="../modelled/" class="md-nav__link">
         Modelled Around Business Domain
       </a>
     </li>
@@ -1000,7 +1089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../microservice/workshop/" class="md-nav__link">
+      <a href="../workshop/" class="md-nav__link">
         Taller/Practica
       </a>
     </li>
@@ -1252,8 +1341,97 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#recomendaciones" class="md-nav__link">
+    Recomendaciones
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#ejemplo" class="md-nav__link">
     Ejemplo
+  </a>
+  
+    <nav class="md-nav" aria-label="Ejemplo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#servicio-de-consulta-de-saldo-bancario" class="md-nav__link">
+    Servicio de Consulta de saldo bancario
+  </a>
+  
+    <nav class="md-nav" aria-label="Servicio de Consulta de saldo bancario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#endpoints" class="md-nav__link">
+    Endpoints
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parametros-de-entrada" class="md-nav__link">
+    Parámetros de entrada
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autenticacion" class="md-nav__link">
+    Autenticación
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formato-de-respuesta" class="md-nav__link">
+    Formato de respuesta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-solicitud" class="md-nav__link">
+    Ejemplo de solicitud
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-de-respuesta" class="md-nav__link">
+    Ejemplo de respuesta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errores" class="md-nav__link">
+    Errores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-de-uso" class="md-nav__link">
+    Guía de uso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consecuencias" class="md-nav__link">
+    Consecuencias
   </a>
   
 </li>
@@ -1276,7 +1454,7 @@
 
 
   
-    <a href="https://github.com/sofka-practices/principios/edit/main/docs/base/kiss.md" title="Editar esta página" class="md-content__button md-icon">
+    <a href="https://github.com/sofka-practices/principios/edit/main/docs/microservice/consumer_first.md" title="Editar esta página" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
     </a>
@@ -1284,26 +1462,99 @@
   
 
 
-  <h1>Keep it simple stupid</h1>
+  <h1>Consumer First</h1>
 
-<p>El principio KISS (Keep It Simple, Stupid), en español "mantenlo simple, estúpido", es un principio de diseño que aboga por mantener la simplicidad en todo momento, evitando añadir complejidad innecesaria en la implementación de un sistema o solución.</p>
-<p>La idea es que un diseño simple es más fácil de entender, depurar y mantener, lo que conduce a un código más robusto y escalable. A menudo, las soluciones más simples son también las más eficientes, en términos de recursos, tiempo y costo.</p>
-<p>Este principio se aplica en todo tipo de sistemas y soluciones, incluyendo software, hardware, procesos y procedimientos.</p>
-<p>En el desarrollo de software, el principio KISS implica utilizar el enfoque más simple que cumpla con los requisitos del negocio y del usuario, evitando la tentación de agregar funcionalidades innecesarias o complejidades técnicas que puedan comprometer la calidad del código y aumentar la complejidad.</p>
-<p>En resumen, el principio KISS es una guía para la toma de decisiones de diseño, que se centra en la simplicidad como clave para crear soluciones efectivas y duraderas.</p>
+<p>El principio "Consumer first" (enfoque en el consumidor) es uno de los principios clave en el diseño y desarrollo de microservicios. Este principio se centra en la idea de que los microservicios deben estar diseñados para satisfacer las necesidades específicas de los consumidores que los utilizan.</p>
+<p>En lugar de diseñar los microservicios desde una perspectiva de tecnología, con el enfoque en la arquitectura y la implementación de servicios, el principio "Consumer first" propone que los equipos de desarrollo deben centrarse en las necesidades y expectativas de los consumidores de sus servicios.</p>
+<p>Para aplicar este principio, los equipos de desarrollo deben comprender las necesidades de los consumidores y diseñar los servicios para satisfacer esas necesidades de manera efectiva y eficiente. Esto puede significar la implementación de características específicas del consumidor, la optimización del rendimiento y la capacidad de respuesta, y la atención a la facilidad de uso.</p>
+<p>Al diseñar los microservicios con el principio "Consumer first", los equipos de desarrollo pueden mejorar la calidad de sus servicios y aumentar la satisfacción del consumidor. Además, al diseñar los servicios para satisfacer las necesidades específicas de los consumidores, los equipos de desarrollo pueden reducir la complejidad y mejorar la escalabilidad de sus servicios, lo que permite una mayor flexibilidad y adaptabilidad en el futuro. En resumen, el principio "Consumer first" es fundamental para garantizar el éxito de la arquitectura de microservicios y para ofrecer servicios eficientes y eficaces que satisfagan las necesidades de los consumidores.</p>
+<h2 id="recomendaciones">Recomendaciones</h2>
+<ol>
+<li>
+<p><strong>Identificar los consumidores:</strong> Es importante identificar a los consumidores de los microservicios y comprender sus necesidades y expectativas. Esto puede incluir la realización de entrevistas con los usuarios, la observación de su comportamiento y la revisión de los datos de uso.</p>
+</li>
+<li>
+<p><strong>Definir los requisitos del consumidor:</strong> Una vez identificados los consumidores, se deben definir sus requisitos y expectativas para los servicios. Esto puede incluir requisitos de rendimiento, escalabilidad, seguridad, usabilidad y otros.</p>
+</li>
+<li>
+<p><strong>Diseñar los microservicios para satisfacer las necesidades del consumidor:</strong> Los microservicios deben ser diseñados para satisfacer las necesidades específicas del consumidor. Esto puede incluir la implementación de características específicas del consumidor, la optimización del rendimiento y la capacidad de respuesta, y la atención a la facilidad de uso.</p>
+</li>
+<li>
+<p><strong>Crear una interfaz de usuario fácil de usar:</strong> La interfaz de usuario de los microservicios debe ser diseñada para ser intuitiva y fácil de usar para los consumidores. Esto puede incluir el uso de lenguaje claro y sencillo, la simplificación de los flujos de trabajo y la disposición de la información de manera lógica y coherente.</p>
+</li>
+<li>
+<p><strong>Implementar la retroalimentación del consumidor:</strong> Es importante implementar la retroalimentación de los consumidores en el diseño y desarrollo de los microservicios. Esto puede incluir la realización de pruebas de usabilidad y pruebas de rendimiento con usuarios reales, así como la implementación de actualizaciones y mejoras basadas en la retroalimentación de los consumidores.</p>
+</li>
+<li>
+<p><strong>Monitorear el rendimiento:</strong> Es importante monitorear el rendimiento de los microservicios para asegurarse de que satisfacen las necesidades de los consumidores. Esto puede incluir la supervisión del tiempo de respuesta de las llamadas API, el rendimiento de la base de datos y otros indicadores clave de rendimiento.</p>
+</li>
+<li>
+<p><strong>Mejorar continuamente:</strong> Los equipos de desarrollo deben estar abiertos a la retroalimentación de los consumidores y utilizarla para mejorar continuamente los microservicios. Esto puede incluir la implementación de actualizaciones y mejoras basadas en la retroalimentación de los consumidores.</p>
+</li>
+</ol>
+<p>Al seguir estos pasos, los equipos de desarrollo pueden aplicar el principio "Consumer first" en el diseño y desarrollo de microservicios para ofrecer servicios efectivos y eficientes que satisfagan las necesidades específicas de los consumidores.</p>
 <h2 id="ejemplo">Ejemplo</h2>
-<p>Supongamos que queremos realizar una función que calcule el promedio de una lista de números enteros. Podríamos implementar una función simple como la siguiente:</p>
-<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">calcularPromedio</span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">numeros</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">suma</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">numeros</span><span class="p">.</span><span class="na">length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">        </span><span class="n">suma</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">numeros</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">;</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="kt">double</span><span class="p">)</span><span class="w"> </span><span class="n">suma</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">numeros</span><span class="p">.</span><span class="na">length</span><span class="p">;</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="p">}</span>
+<p>A continuación se presenta un ejemplo de un servicio ficticio de "Consulta de saldo bancario" que cumple con el principio "Consumer first":</p>
+<h3 id="servicio-de-consulta-de-saldo-bancario">Servicio de Consulta de saldo bancario</h3>
+<p>El servicio de Consulta de saldo bancario proporciona una forma de recuperar el saldo disponible en una cuenta bancaria específica.</p>
+<h4 id="endpoints">Endpoints</h4>
+<p>El servicio ofrece un único endpoint:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GET<span class="w"> </span>/api/v1/accounts/<span class="o">{</span>account_number<span class="o">}</span>/balance
 </span></code></pre></div>
-<p>Esta función simplemente suma todos los números en la lista y los divide por la cantidad de elementos para obtener el promedio. Es una solución simple y fácil de entender.</p>
-<p>En cambio, si tratamos de implementar una solución más compleja que utiliza una estructura de datos más avanzada, como por ejemplo una lista enlazada o un árbol, estaríamos violando el principio KISS ya que estaríamos agregando complejidad innecesaria al problema.</p>
-<p>Es importante recordar que mantener las cosas simples no significa que no puedan ser eficientes o elegantes, sino que se deben buscar soluciones simples y fáciles de entender y mantener.</p>
+<p>Este endpoint recupera el saldo disponible en la cuenta bancaria especificada por el número de cuenta.</p>
+<h4 id="parametros-de-entrada">Parámetros de entrada</h4>
+<p>El endpoint acepta un único parámetro:</p>
+<ul>
+<li><strong>account_number (obligatorio):</strong> El número de cuenta de la cuenta bancaria para la cual se desea recuperar el saldo. Debe ser un valor numérico de 10 dígitos.</li>
+</ul>
+<h4 id="autenticacion">Autenticación</h4>
+<p>El servicio utiliza autenticación basada en token. Para autenticarse, el consumidor debe proporcionar un token válido en la cabecera Authorization de la solicitud. El token se puede obtener a través de un proceso de registro de consumidor previo.</p>
+<h4 id="formato-de-respuesta">Formato de respuesta</h4>
+<p>El endpoint devuelve una respuesta en formato JSON con los siguientes campos:</p>
+<ul>
+<li><strong>account_number:</strong> El número de cuenta bancaria especificado en la solicitud.
+balance: El saldo disponible en la cuenta bancaria en el momento de la consulta.</li>
+</ul>
+<h4 id="ejemplo-de-solicitud">Ejemplo de solicitud</h4>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>GET<span class="w"> </span>/api/v1/accounts/1234567890/balance
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>Authorization:<span class="w"> </span>Bearer<span class="w"> </span>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+</span></code></pre></div>
+<h4 id="ejemplo-de-respuesta">Ejemplo de respuesta</h4>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">&quot;account_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1234567890&quot;</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nt">&quot;balance&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">5000.00</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</span></code></pre></div>
+<h4 id="errores">Errores</h4>
+<p>El servicio devuelve los siguientes errores en caso de que se produzca una situación inesperada:</p>
+<ul>
+<li>401 Unauthorized: El consumidor no está autenticado o su token no es válido.</li>
+<li>404 Not Found: La cuenta bancaria especificada no existe o no está disponible.</li>
+<li>500 Internal Server Error: Se ha producido un error en el servidor.</li>
+</ul>
+<h4 id="guia-de-uso">Guía de uso</h4>
+<p>Para utilizar el servicio de Consulta de saldo bancario, sigue los siguientes pasos:</p>
+<ol>
+<li>Registra una cuenta de consumidor y obtén un token de autenticación válido.</li>
+<li>Realiza una solicitud GET a GET /api/v1/accounts/{account_number}/balance, especificando el número de cuenta bancaria para la cual deseas recuperar el saldo y el token de autenticación en la cabecera Authorization.</li>
+<li>La respuesta devolverá el saldo disponible en la cuenta bancaria especificada en formato JSON.</li>
+</ol>
+<p>¡Listo! Ahora puedes integrar el servicio de Consulta de saldo bancario en tu sistema y recuperar el saldo disponible de tus cuentas bancarias de manera fácil y rápida.</p>
+<h2 id="consecuencias">Consecuencias</h2>
+<ol>
+<li>
+<p><strong>Dificultades en la integración de los servicios:</strong> si los servicios no están diseñados pensando en el consumidor final, puede haber problemas de integración entre ellos, lo que dificulta la implementación de nuevas funcionalidades o la modificación de las existentes.</p>
+</li>
+<li>
+<p><strong>Incompatibilidades en la interfaz de usuario:</strong> si los servicios no están diseñados para ser consumidos fácilmente por el usuario final, puede haber problemas de incompatibilidad en la interfaz de usuario, lo que dificulta el uso de las aplicaciones y servicios.</p>
+</li>
+<li>
+<p><strong>Dificultades en la adopción de nuevos servicios:</strong> si los servicios no están diseñados pensando en el usuario final, puede haber dificultades en la adopción de nuevos servicios, lo que puede llevar a la pérdida de oportunidades de negocio.</p>
+</li>
+<li>
+<p><strong>Problemas de escalabilidad:</strong> si los servicios no están diseñados para escalar de manera eficiente, puede haber problemas de rendimiento y disponibilidad cuando se enfrenten a una gran demanda, lo que puede afectar negativamente la experiencia del usuario final.</p>
+</li>
+</ol>
 
 
 
@@ -1325,7 +1576,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Pie" >
         
           
-          <a href="../separation_of_concerns/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Separation of concerns" rel="prev">
+          <a href="../highly_observable/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Highly Observable" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -1334,20 +1585,20 @@
                 <span class="md-footer__direction">
                   Anterior
                 </span>
-                Separation of concerns
+                Highly Observable
               </div>
             </div>
           </a>
         
         
           
-          <a href="../yagni/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: You aren&#39;t gonna need it" rel="next">
+          <a href="../isolate_failure/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Isolate Failure" rel="next">
             <div class="md-footer__title">
               <div class="md-ellipsis">
                 <span class="md-footer__direction">
                   Siguiente
                 </span>
-                You aren't gonna need it
+                Isolate Failure
               </div>
             </div>
             <div class="md-footer__button md-icon">
