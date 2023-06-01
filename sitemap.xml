@@ -2,212 +2,262 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sofka-practices.github.io/principios/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean-arch/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/cloud/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/automated_tests/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/bounded_contexts/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/dry/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/encapsulation/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/kiss/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/persistence_ignorance/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/separation_of_concerns/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/solid/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/workshop/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/base/yagni/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/acyclic_dependencies/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/common_closure/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/common_reuse/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/reuse/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/stable_abstractions/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/stable_dependencies/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/clean_arch/workshop/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/automate_environment/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/avoid_point_failure/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/caching/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/choose_databse/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/disposable/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/enable_scalability/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/loosely_couple/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/no_servers/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/optimize_cost/</loc>
+         <lastmod>2023-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sofka-practices.github.io/principios/cloud/secure_infrastructure/</loc>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/automated_tests/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/avoiding_global_styles/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/dev_components/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/input_strategy/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/keeping_changelog/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/linters_formatters/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/responsive_design/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/separating/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/standardized_fetching/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/frontend/workshop/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/consumer_first/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/culture_automation/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/decentralise_things/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/deploy_independently/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/hide_implementation/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/highly_observable/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/isolate_failure/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/modelled/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sofka-practices.github.io/principios/microservice/workshop/</loc>
-         <lastmod>2023-04-18</lastmod>
+         <lastmod>2023-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
